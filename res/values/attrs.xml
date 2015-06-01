@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="mapview">
+		<attr name="mapurl" format="string">http://01010101</attr>
+		<attr name="width" format="string">320</attr>
+		<attr name="height" format="string">440</attr>
+	</declare-styleable>
+</resources>

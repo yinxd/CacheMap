@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="cndcsoft.android.map.demo" android:versionCode="1"
+	android:versionName="1.0">
+	<!-- 说明可以连接网络 -->
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<!-- 说明可以调用LBS服务 -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<!-- 说明可以调用GPS -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<!-- 说明可以读取手机状态 -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".MapShow" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<action android:name="cndcsoft.android.map.MapView01"/>
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest> 

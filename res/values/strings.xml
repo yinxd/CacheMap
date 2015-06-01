@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MapShow!</string>
+    <string name="app_name">CacheMap</string>
+    <string name="mapinfo">地图信息</string>
+    
+    <string-array name="show_mode">
+    <item>街景模式</item>
+    <item>卫星模式</item>
+    <item>交通模式</item>
+    </string-array>
+</resources>
